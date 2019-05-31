@@ -1,29 +1,34 @@
 {
-  "name": "webapi-challenge",
+  "name": "webapi-blog",
   "version": "1.0.0",
-  "description": "Web API Challenge",
+  "description": "Web API Blog Project",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "server": "nodemon index.js"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LambdaSchool/Sprint-Challenge-Node-Express.git"
+    "url": "git+https://github.com/LambdaSchool/Node-Blog.git"
   },
   "keywords": [
-    "webapi",
-    "unit",
-    "challenge"
+    "node",
+    "express",
+    "blog",
+    "api"
   ],
   "author": "Lambda School",
+  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/LambdaSchool/Sprint-Challenge-Node-Express/issues"
+    "url": "https://github.com/LambdaSchool/Node-Blog/issues"
   },
-  "homepage": "https://github.com/LambdaSchool/Sprint-Challenge-Node-Express#readme",
+  "homepage": "https://github.com/LambdaSchool/Node-Blog#readme",
   "dependencies": {
-    "helmet": "^3.18.0",
+    "express": "^4.17.1",
     "knex": "^0.17.1",
     "sqlite3": "^4.0.8"
   },
   "devDependencies": {
-    "knex-cleaner": "^1.1.4"
+    "knex-cleaner": "^1.1.4",
+    "nodemon": "^1.18.10"
   }
 }
