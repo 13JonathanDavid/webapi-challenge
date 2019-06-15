@@ -1,47 +1,34 @@
 {
-  "name": "webapi-blog",
+  "name": "webapi-challenge",
   "version": "1.0.0",
-  "description": "Web API Blog Project",
+  "description": "Web API Challenge",
   "main": "index.js",
   "scripts": {
-<<<<<<< Updated upstream
-    "server": "nodemon index.js"
-=======
     "server": "nodemon index.js",
     "start": "node index.js"
->>>>>>> Stashed changes
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LambdaSchool/Node-Blog.git"
+    "url": "git+https://github.com/LambdaSchool/Sprint-Challenge-Node-Express.git"
   },
   "keywords": [
-    "node",
-    "express",
-    "blog",
-    "api"
+    "webapi",
+    "unit",
+    "challenge"
   ],
   "author": "Lambda School",
-  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/LambdaSchool/Node-Blog/issues"
+    "url": "https://github.com/LambdaSchool/Sprint-Challenge-Node-Express/issues"
   },
-  "homepage": "https://github.com/LambdaSchool/Node-Blog#readme",
+  "homepage": "https://github.com/LambdaSchool/Sprint-Challenge-Node-Express#readme",
   "dependencies": {
     "express": "^4.17.1",
-<<<<<<< Updated upstream
-=======
     "helmet": "^3.18.0",
->>>>>>> Stashed changes
     "knex": "^0.17.1",
     "sqlite3": "^4.0.8"
   },
   "devDependencies": {
     "knex-cleaner": "^1.1.4",
-<<<<<<< Updated upstream
-    "nodemon": "^1.18.10"
-=======
 	 "nodemon": "^1.19.1"
->>>>>>> Stashed changes
   }
 }
