@@ -12,3 +12,26 @@ I need this code, just don't know where, perhaps should make some middleware, do
 
 Go code!
 */
+
+const express = require('express');
+const router = express.Router(); 
+// const {check, validationResult } = require('express-validator/check');
+const db = require('./data/dbConfig.js');
+const port = 3333;
+
+//server def and init
+const server = express();
+server.use(express.json());
+
+//routes def
+const projectRoutes = require('./routes/projects');
+const actionRoutes = require('./routes/actions');
+//routes init
+server.use('/projects', projectRoutes);
+server.use('/actions', actionRoutes);
+
+
+//server invoke
+server.listen(port, () => {
+    console.log(`I am listening on part ${port}`);
+});
