@@ -25,10 +25,10 @@ server.use(express.json());
 
 //routes def
 const projectRoutes = require('./routes/projects');
-//const actionRoutes = require('./routes/actions');
+const actionRoutes = require('./routes/actions');
 //routes init
 server.use('/projects', projectRoutes);
-
+server.use('/actions', actionRoutes);
 
 
 //server invoke
